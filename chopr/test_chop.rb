@@ -40,3 +40,9 @@ class TestRecursiveChop < Test::Unit::TestCase
   include RecursiveChop
   include TestChop
 end
+
+require_relative 'oochop'
+class TestOOChop < Test::Unit::TestCase
+  include OOChop
+  include TestChop
+end
