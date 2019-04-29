@@ -17,7 +17,6 @@ module OOChop
     end
 
     def find_in_non_empty_list(item)
-      # return @list.index(item).nil? ? -1 : @list.index(item)
       middle = (@start + @stop) / 2
       middle_item = @list[middle]
       if middle_item == item

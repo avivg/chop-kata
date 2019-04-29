@@ -46,3 +46,9 @@ class TestOOChop < Test::Unit::TestCase
   include OOChop
   include TestChop
 end
+
+require_relative 'slicingchop'
+class TestSliceChop < Test::Unit::TestCase
+  include SliceChop
+  include TestChop
+end
